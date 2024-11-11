@@ -1,0 +1,16 @@
+{
+  "name": "projeto_douglas_freitas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./static/scripts/index.js",
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "Douglas Freitas",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
